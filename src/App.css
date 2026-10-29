@@ -2,37 +2,46 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: #141b21; /* Fondo oscuro similar a la captura */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contenedor-botones {
+  display: flex;
+  gap: 15px; /* Espacio entre los botones */
+  margin: 20px 0;
+}
+
+.btn-verde {
+  background-color: #1aa11a; /* Verde brillante de las capturas */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-verde:hover {
+  background-color: #158015; /* Un tono más oscuro al pasar el mouse */
+}
+
+.texto-resultado {
+  color: #7a8288; /* Color gris para el texto de espera y resultado */
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
 }
