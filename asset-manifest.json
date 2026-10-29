@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TP5-Lenguajes-4/static/css/main.d96c8086.css",
+    "main.js": "/TP5-Lenguajes-4/static/js/main.3959636c.js",
+    "static/js/453.238ed01d.chunk.js": "/TP5-Lenguajes-4/static/js/453.238ed01d.chunk.js",
+    "index.html": "/TP5-Lenguajes-4/index.html",
+    "main.d96c8086.css.map": "/TP5-Lenguajes-4/static/css/main.d96c8086.css.map",
+    "main.3959636c.js.map": "/TP5-Lenguajes-4/static/js/main.3959636c.js.map",
+    "453.238ed01d.chunk.js.map": "/TP5-Lenguajes-4/static/js/453.238ed01d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d96c8086.css",
+    "static/js/main.3959636c.js"
+  ]
+}
